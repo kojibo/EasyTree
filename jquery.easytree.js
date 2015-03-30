@@ -723,7 +723,7 @@
             var forceOpenNode = level < _settings.minOpenLevels;
 
             var ulStyle = level == 0 || display || forceOpenNode ? "" : " style='display:none' ";
-            html += '<ul tabindex="0" class="' + ulCss + '" ' + ulStyle + '">';
+            html += '<ul tabindex="0" class="' + ulCss + '" ' + ulStyle + '>';
 
             for (i = 0; i < nodes.length; i++) {
                 var n = nodes[i];
